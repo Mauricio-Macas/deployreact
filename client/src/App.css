@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
+
+@font-face {
+  font-family: Impact;
+  src: url('./fonts/impact.ttf');
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Lora', serif;
+  /* background: #fff;
+  color: #666; */
+}
+
+.App {
+  text-align: center;
+  background-color: rgb(206, 213, 223);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.logo-text {
+  font-size: 59px;
+  line-height: 69px;
+  letter-spacing: -2.2px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: #666 !important;
+  border: none !important;
+  outline: none !important;
+  width: 100%;
+}
+
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  background: #666 !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.btn{
+  text-transform: uppercase;
+  color: white;
+}
